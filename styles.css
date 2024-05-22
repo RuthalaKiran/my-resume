@@ -1,0 +1,136 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  max-width: 1000px;
+  margin: auto;
+  border: 1px solid gray;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+h1 {
+  font-size: 3.2em;
+  letter-spacing: 0.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 1.5em;
+  padding-bottom: 1em;
+}
+
+h3 {
+  font-size: 1em;
+  padding-bottom: 1em;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin-top: 3em;
+}
+header {
+  text-align: center;
+  margin: auto 2em;
+}
+header p {
+  font-size: 1.5rem;
+}
+section {
+  margin: auto 1em 4em 2em;
+}
+
+i {
+  margin-right: 0.5em;
+}
+
+p {
+  margin: 0.2em auto;
+}
+
+hr {
+  border: none;
+  background-color: lightgray;
+  height: 1px;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 350;
+  margin-bottom: 0;
+}
+#mainLeft {
+  border-right: 1px solid lightgray;
+}
+.about p{
+    font-size: 14px;
+}
+.contact p{
+    margin-bottom: 10px;
+}
+a {
+  color: #000000;
+  font-size: 14px;
+}
+.skills ul li {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.skills ul {
+  margin-left: -20px;
+}
+.education .cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.education .cards .card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 7px;
+}
+.education .cards .card span:nth-child(1) {
+  font-size: 15px;
+}
+.education .cards .card span {
+  font-size: 13px;
+}
+.certification ul li {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.certification ul {
+  margin-left: -20px;
+  margin-top: 5px;
+}
+.projects .cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.projects .cards .card{
+    font-size: 14px;
+}
+.projects .cards .card p{
+    font-size: 15px;
+    font-weight: 499;
+}
+.projects .cards .card ul{
+    font-size: 14px;
+    margin-left: -18px;
+}
+.projects .cards .card ul li{
+   margin-bottom: 5px;
+}
+.projects .cards .card .links{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-left: 18px;
+}
